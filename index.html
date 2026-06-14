@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohan Khushraj</title>
+  <meta name="description" content="Rohan Khushraj — Youth Fencer & Author." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="#" class="logo">RK</a>
+    <nav class="nav">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1>Rohan Khushraj</h1>
+      <p class="tagline">Youth Fencer &amp; Author</p>
+      <p class="hero-sub">
+        Competing on the strip, writing between bouts, and building tools
+        for the things I'm curious about.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">See my work</a>
+        <a class="btn btn-ghost" href="https://fencingtracker.com/p/100304170/Rohan-Khushraj" target="_blank" rel="noopener">Fencing results &rarr;</a>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p>A few things I've made and written.</p>
+      </div>
+
+      <div class="card-grid">
+        <a class="card" href="https://chemscape.rohankhushraj.com" target="_blank" rel="noopener">
+          <div class="card-tag">Web app</div>
+          <h3>ChemScape</h3>
+          <p>A 3D molecular viewer and study tool — explore and learn chemistry in an interactive space.</p>
+          <span class="card-link">Open ChemScape &rarr;</span>
+        </a>
+
+        <a class="card" href="https://a.co/d/004KbwHu" target="_blank" rel="noopener">
+          <div class="card-tag">Book</div>
+          <h3>My Book</h3>
+          <p>A title I authored — available on Amazon. Read more about it and grab a copy.</p>
+          <span class="card-link">View on Amazon &rarr;</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="section-head">
+        <h2>About</h2>
+      </div>
+      <div class="about-body">
+        <p>
+          I'm Rohan — a youth fencer and author. When I'm not on the strip
+          chasing the next touch, I'm writing, reading, and tinkering with
+          small projects that scratch an itch of curiosity.
+        </p>
+        <p>
+          This site is a home for my work: the things I compete in, the things
+          I write, and the things I build. More to come.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Rohan Khushraj</p>
+    <div class="footer-links">
+      <a href="https://fencingtracker.com/p/100304170/Rohan-Khushraj" target="_blank" rel="noopener">Fencing</a>
+      <a href="https://a.co/d/004KbwHu" target="_blank" rel="noopener">Book</a>
+      <a href="https://chemscape.rohankhushraj.com" target="_blank" rel="noopener">ChemScape</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
